@@ -9,8 +9,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.notetakingapp.feature_note.domain.utill.NoteOrder
-import com.notetakingapp.feature_note.domain.utill.OrderType
+import com.notetakingapp.feature_note.domain.util.NoteOrder
+import com.notetakingapp.feature_note.domain.util.OrderType
 
 @Composable
 fun OrderSection(

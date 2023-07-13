@@ -1,10 +1,8 @@
 package com.notetakingapp.feature_note
 
-import android.hardware.lights.Light
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -16,8 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.notetakingapp.feature_note.presentation.add_edit_note.components.AddEditNoteScreen
 import com.notetakingapp.feature_note.presentation.notes.components.NotesScreen
-import com.notetakingapp.feature_note.presentation.utill.Screen
-import com.notetakingapp.ui.theme.LightBlue
+import com.notetakingapp.feature_note.presentation.util.Screen
 import com.notetakingapp.ui.theme.NoteTakingAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 

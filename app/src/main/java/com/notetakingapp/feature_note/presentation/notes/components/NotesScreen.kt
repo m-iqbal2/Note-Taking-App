@@ -44,7 +44,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.notetakingapp.feature_note.presentation.notes.NotesEvent
 import com.notetakingapp.feature_note.presentation.notes.NotesViewModel
-import com.notetakingapp.feature_note.presentation.utill.Screen
+import com.notetakingapp.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

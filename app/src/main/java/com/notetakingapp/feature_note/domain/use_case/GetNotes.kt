@@ -2,8 +2,8 @@ package com.notetakingapp.feature_note.domain.use_case
 
 import com.notetakingapp.feature_note.domain.model.Note
 import com.notetakingapp.feature_note.domain.repository.NoteRepository
-import com.notetakingapp.feature_note.domain.utill.NoteOrder
-import com.notetakingapp.feature_note.domain.utill.OrderType
+import com.notetakingapp.feature_note.domain.util.NoteOrder
+import com.notetakingapp.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

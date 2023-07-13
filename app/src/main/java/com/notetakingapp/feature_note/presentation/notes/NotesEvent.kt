@@ -1,7 +1,7 @@
 package com.notetakingapp.feature_note.presentation.notes
 
 import com.notetakingapp.feature_note.domain.model.Note
-import com.notetakingapp.feature_note.domain.utill.NoteOrder
+import com.notetakingapp.feature_note.domain.util.NoteOrder
 
 sealed class NotesEvent {
     data class Order(val noteOrder: NoteOrder): NotesEvent()

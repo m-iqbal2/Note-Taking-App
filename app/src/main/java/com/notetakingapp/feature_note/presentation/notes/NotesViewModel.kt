@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.notetakingapp.feature_note.domain.model.Note
 import com.notetakingapp.feature_note.domain.use_case.NoteUseCases
-import com.notetakingapp.feature_note.domain.utill.NoteOrder
-import com.notetakingapp.feature_note.domain.utill.OrderType
+import com.notetakingapp.feature_note.domain.util.NoteOrder
+import com.notetakingapp.feature_note.domain.util.OrderType
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.launchIn

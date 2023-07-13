@@ -1,4 +1,4 @@
-package com.notetakingapp.feature_note.domain.utill
+package com.notetakingapp.feature_note.domain.util
 
 sealed class OrderType {
     object Ascending: OrderType()
